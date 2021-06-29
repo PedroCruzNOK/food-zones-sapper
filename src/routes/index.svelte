@@ -1,5 +1,8 @@
 <script>
-	import successkid from 'images/successkid.jpg';
+	import Slider from "../components/Slider.svelte";
+	import Aboutus from "../components/Aboutus.svelte";
+	import Appmobile from "../components/Appmobile.svelte";
+	export let segment;
 </script>
 
 <style>
@@ -9,12 +12,8 @@
 <svelte:head>
 	<title>Food-zone</title>
 </svelte:head>
+<Slider {segment} />
+<Aboutus {segment} />
+<Appmobile {segment} />
 
-<h1 class="text-center">food zone bienvenido </h1>
 
-<figure>
-	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
