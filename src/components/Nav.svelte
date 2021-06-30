@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-          <a href="/" class="nav-link active activo">Home</a>
+          <a href="./" class="nav-link active activo">Home</a>
         </li>
         <li class="nav-item" >
           <a href="colaboradores" class="nav-link active activo"
